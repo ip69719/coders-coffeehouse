@@ -22,6 +22,43 @@
 		<label for="email-field">Email</label>	
 		<input id="email-field" type="email" placeholder="Your email">
 
+        <p>How many cups of coffee do you drink a day?</p>
+        <!--
+          Our form will have two groups of radios for the user to select, one has already been written 
+          for how many cups a day, and another you will write for how often they visit coders coffeehouse. 
+          
+          The radios are grouped by their name attribute. So the user can only select one option
+          from the inputs with name="cups-a-day" and one option from the inputs with
+          name="visit-frequency", once you have added these to the code.
+        -->
+    
+        <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio">
+        <label for="0-2cups-radio">0 to 2 cups</label>
+    
+        <input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio">
+        <label for="3-5cups-radio">3 to 5 cups</label>
+    
+        <input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio">
+        <label for="6-8cups-radio">6 to 8 cups</label>
+    
+        <input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups" type="radio">
+        <label for="9plus-cups-radio">9 or more cups</label>
+    
+        <p>How often do you visit Coders Coffeehouse?</p>
+    
+        <!-- Add your radio group for visit-frequency here -->
+        <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio">
+        <label for="once-a-week">Once a week</label>
+        
+        <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio">
+        <label for="twice-a-week">Twice a week</label>
+        
+        <input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight" type="radio">
+        <label id="once-a-fortnight">Once a fortnight</label>
+    
+        <input id="not-often" name="visit-frequency" value="not-often" type="radio">
+        <label id="not-often">Not often</label>
+
 		<p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
 		<!-- Add your checkboxes here -->
 		<div>
