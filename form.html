@@ -20,15 +20,15 @@
 
             <!-- Add your label element for "name-field" here -->
             <label for="name-field">Name</label>
-            <input id="name-field" type="text" placeholder="Your name">
+            <input id="name-field" type="text" placeholder="Your name" required>
 
             <!-- Add your label element for "email-field" here -->
             <label for="email-field">Email</label>	
-            <input id="email-field" type="email" placeholder="Your email">
+            <input id="email-field" type="email" placeholder="Your email" required>
             
             <!-- Add your dropdown menu here -->
             <label for="age">Age</label>
-            <select id="age" name="age">
+            <select id="age" name="age" required>
                 <option value="under-20">Under 20</option>
                 <option value="20s">20-29</option>
                 <option value="30s">30-39</option>
@@ -42,7 +42,7 @@
             <div>
                 <!-- Add your input field with datalist here -->
                 <label for="fav-coffee">What is your favourite coffee?</label>
-                <input id="fav-coffee" list="coffees" name="fav-coffee">
+                <input id="fav-coffee" list="coffees" name="fav-coffee" required>
                 <datalist id="coffees">
                     <option value="Latte"></option>
                     <option value="Americano"></option>
